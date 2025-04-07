@@ -1,1 +1,82 @@
-Week1 challenge 5 documentation
+https://github.com/Badhrinadh0987/ECE510_HW_AI-ML
+
+
+Quick Sort
+
+Instruction Counts:
+RESUME: 1
+LOAD_CONST: 28
+BUILD_CONST_KEY_MAP: 7
+LOAD_NAME: 4
+BUILD_MAP: 2
+BUILD_LIST: 3
+POP_TOP: 1
+RETURN_CONST: 1
+
+
+Arithmetic Operation Counts: {'+': 2, '-': 9, '*': 0, '/': 3, '%': 0}
+Total Arithmetic Instructions: 14
+
+Quicksort Result: [1, 1, 2, 3, 6, 8, 10]
+         36 function calls (26 primitive calls) in 0.001 seconds
+
+Potential Parallelism:
+- Recursive calls to quicksort(left) and quicksort(right) are independent.
+- They can be executed in parallel using multiprocessing or concurrent.futures.
+
+
+
+
+Differential Equation Solver:
+
+Instruction Counts:
+RESUME: 1
+LOAD_CONST: 48
+BUILD_CONST_KEY_MAP: 11
+LOAD_NAME: 6
+BUILD_MAP: 4
+BUILD_LIST: 5
+POP_TOP: 1
+RETURN_CONST: 1
+
+
+Arithmetic Operation Counts: {'+': 0, '-': 25, '*': 2, '/': 2, '%': 0}
+Total Arithmetic Instructions: 29
+
+
+ODE Solution: [[1.00000000e+00 8.59330265e-01 3.39954077e-01 1.41634832e-01
+  5.88020563e-02 2.44004625e-02 1.01080684e-02 4.17064112e-03
+  1.70480502e-03 6.82283272e-04 2.61139397e-04 9.18493878e-05
+  4.57237894e-05]]
+         1082 function calls (1068 primitive calls) in 0.016 seconds
+
+Potential Parallelism:
+- Not much parallelism here; ODE integration is sequential (RK45).
+- You could solve multiple independent ODEs in parallel, if applicable.
+
+
+
+Matrix Multiplication Result:
+
+Instruction Counts:
+RESUME: 1
+LOAD_CONST: 23
+BUILD_CONST_KEY_MAP: 6
+LOAD_NAME: 2
+BUILD_MAP: 1
+BUILD_LIST: 2
+POP_TOP: 1
+RETURN_CONST: 1
+
+
+Arithmetic Operation Counts: {'+': 1, '-': 29, '*': 1, '/': 3, '%': 1}
+Total Arithmetic Instructions: 35
+
+Matrix Multiplication Result:
+ [[19 22]
+ [43 50]]
+         118 function calls (112 primitive calls) in 0.004 seconds
+
+Potential Parallelism:
+- Matrix dot product is internally parallelized by NumPy using optimized BLAS libraries.
+- At a higher level, individual element calculations can be assigned to separate threads or processes.
