@@ -1,0 +1,13 @@
+PS C:\Users\Student\Videos\COURSES\AI-ML\DDDS_New> cd ..
+PS C:\Users\Student\Videos\COURSES\AI-ML> cd w6_Challenge
+PS C:\Users\Student\Videos\COURSES\AI-ML\w6_Challenge> python crossbar_sim.py
+Conductance Matrix:
+ [[1.  0.5 1.  0.5]
+ [0.5 1.  0.5 1. ]
+ [1.  1.  1.  1. ]
+ [0.5 1.  0.5 1. ]]
+Input Vector:
+ [1 0 1 0]
+Output Currents:
+ [2.  1.5 2.  1.5]
+PS C:\Users\Student\Videos\COURSES\AI-ML\w6_Challenge>
