@@ -1,0 +1,179 @@
+vsim -c -do sim_run.do
+Reading pref.tcl
+
+# 2021.3_1
+
+# do sim_run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.3_1 Compiler 2021.08 Aug 15 2021
+# Start time: 22:43:31 on Jun 14,2025
+# vlog rtl/my_module.sv my_module_tb.sv 
+# -- Compiling module my_module
+# -- Compiling module my_module_tb
+# 
+# Top level modules:
+# 	my_module_tb
+# End time: 22:43:31 on Jun 14,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c my_module_tb -do "run -all; quit" 
+# Start time: 22:43:31 on Jun 14,2025
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# //  Questa Sim-64
+# //  Version 2021.3_1 linux_x86_64 Aug 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.my_module_tb(fast)
+# run -all
+# ACC = 0 | OUT_DATA = 0
+# ACC = 2ca6 | OUT_DATA = a6
+# ACC = 48ed | OUT_DATA = ed
+# ACC = 5f40 | OUT_DATA = 40
+# ACC = 68ad | OUT_DATA = ad
+# ACC = a13b | OUT_DATA = 3b
+# ACC = b415 | OUT_DATA = 15
+# ACC = c17a | OUT_DATA = 7a
+# ACC = d84c | OUT_DATA = 4c
+# ACC = 179 | OUT_DATA = 79
+# ACC = b65 | OUT_DATA = 65
+# ACC = 2237 | OUT_DATA = 37
+# ACC = 40f9 | OUT_DATA = f9
+# ACC = 4374 | OUT_DATA = 74
+# ACC = 505a | OUT_DATA = 5a
+# ACC = 5452 | OUT_DATA = 52
+# ACC = 91d6 | OUT_DATA = d6
+# ACC = c56e | OUT_DATA = 6e
+# ACC = d848 | OUT_DATA = 48
+# ACC = e7a9 | OUT_DATA = a9
+# ACC = eba1 | OUT_DATA = a1
+# ACC = fb81 | OUT_DATA = 81
+# ACC = fc00 | OUT_DATA = 0
+# ACC = ff79 | OUT_DATA = 79
+# ACC = 10d6 | OUT_DATA = d6
+# ACC = 4a62 | OUT_DATA = 62
+# ACC = 64ad | OUT_DATA = ad
+# ACC = 944d | OUT_DATA = 4d
+# ACC = c3ed | OUT_DATA = ed
+# ACC = e9a1 | OUT_DATA = a1
+# ACC = 1b3d | OUT_DATA = 3d
+# ACC = 534c | OUT_DATA = 4c
+# ACC = 66a5 | OUT_DATA = a5
+# ACC = 7704 | OUT_DATA = 4
+# ACC = 9743 | OUT_DATA = 43
+# ACC = 9f33 | OUT_DATA = 33
+# ACC = a429 | OUT_DATA = 29
+# ACC = d8bf | OUT_DATA = bf
+# ACC = f010 | OUT_DATA = 10
+# ACC = bd8 | OUT_DATA = d8
+# ACC = 202f | OUT_DATA = 2f
+# ACC = 52c9 | OUT_DATA = c9
+# ACC = 6720 | OUT_DATA = 20
+# ACC = 914b | OUT_DATA = 4b
+# ACC = 993b | OUT_DATA = 3b
+# ACC = aa19 | OUT_DATA = 19
+# ACC = b77e | OUT_DATA = 7e
+# ACC = dab7 | OUT_DATA = b7
+# ACC = e02c | OUT_DATA = 2c
+# ACC = 14c2 | OUT_DATA = c2
+# ACC = 2998 | OUT_DATA = 98
+# ACC = 573c | OUT_DATA = 3c
+# ACC = 7500 | OUT_DATA = 0
+# ACC = a029 | OUT_DATA = 29
+# ACC = a127 | OUT_DATA = 27
+# ACC = a819 | OUT_DATA = 19
+# ACC = beeb | OUT_DATA = eb
+# ACC = cfc9 | OUT_DATA = c9
+# ACC = f381 | OUT_DATA = 81
+# ACC = f6fa | OUT_DATA = fa
+# ACC = 9d4 | OUT_DATA = d4
+# ACC = 3876 | OUT_DATA = 76
+# ACC = 5f28 | OUT_DATA = 28
+# ACC = 91c2 | OUT_DATA = c2
+# ACC = b972 | OUT_DATA = 72
+# ACC = e618 | OUT_DATA = 18
+# ACC = 25f | OUT_DATA = 5f
+# ACC = 18b2 | OUT_DATA = b2
+# ACC = 221f | OUT_DATA = 1f
+# ACC = 5aad | OUT_DATA = ad
+# ACC = 6d87 | OUT_DATA = 87
+# ACC = 7aec | OUT_DATA = ec
+# ACC = 91be | OUT_DATA = be
+# ACC = baeb | OUT_DATA = eb
+# ACC = c4d7 | OUT_DATA = d7
+# ACC = dba9 | OUT_DATA = a9
+# ACC = fa6b | OUT_DATA = 6b
+# ACC = fce6 | OUT_DATA = e6
+# ACC = 9cc | OUT_DATA = cc
+# ACC = dc4 | OUT_DATA = c4
+# ACC = 4b48 | OUT_DATA = 48
+# ACC = 7ee0 | OUT_DATA = e0
+# ACC = 91ba | OUT_DATA = ba
+# ACC = a11b | OUT_DATA = 1b
+# ACC = a513 | OUT_DATA = 13
+# ACC = b4f3 | OUT_DATA = f3
+# ACC = b572 | OUT_DATA = 72
+# ACC = b8eb | OUT_DATA = eb
+# ACC = ca48 | OUT_DATA = 48
+# ACC = 3d4 | OUT_DATA = d4
+# ACC = 1e1f | OUT_DATA = 1f
+# ACC = 4dbf | OUT_DATA = bf
+# ACC = 7d5f | OUT_DATA = 5f
+# ACC = a313 | OUT_DATA = 13
+# ACC = d4af | OUT_DATA = af
+# ACC = cbe | OUT_DATA = be
+# ACC = 2017 | OUT_DATA = 17
+# ACC = 3076 | OUT_DATA = 76
+# ACC = 50b5 | OUT_DATA = b5
+# ACC = 58a5 | OUT_DATA = a5
+# ACC = 5d9b | OUT_DATA = 9b
+# ACC = 9231 | OUT_DATA = 31
+# ACC = a982 | OUT_DATA = 82
+# ACC = c54a | OUT_DATA = 4a
+# ACC = d9a1 | OUT_DATA = a1
+# ACC = c3b | OUT_DATA = 3b
+# ACC = 2092 | OUT_DATA = 92
+# ACC = 4abd | OUT_DATA = bd
+# ACC = 52ad | OUT_DATA = ad
+# ACC = 638b | OUT_DATA = 8b
+# ACC = 70f0 | OUT_DATA = f0
+# ACC = 9429 | OUT_DATA = 29
+# ACC = 999e | OUT_DATA = 9e
+# ACC = ce34 | OUT_DATA = 34
+# ACC = e30a | OUT_DATA = a
+# ACC = 10ae | OUT_DATA = ae
+# ACC = 2e72 | OUT_DATA = 72
+# ACC = 599b | OUT_DATA = 9b
+# ACC = 5a99 | OUT_DATA = 99
+# ACC = 618b | OUT_DATA = 8b
+# ACC = 785d | OUT_DATA = 5d
+# ACC = 893b | OUT_DATA = 3b
+# ACC = acf3 | OUT_DATA = f3
+# ACC = b06c | OUT_DATA = 6c
+# ACC = c346 | OUT_DATA = 46
+# ACC = f1e8 | OUT_DATA = e8
+# ACC = 189a | OUT_DATA = 9a
+# ACC = 4b34 | OUT_DATA = 34
+# ACC = 72e4 | OUT_DATA = e4
+# ACC = 79d6 | OUT_DATA = d6
+# ACC = 90a8 | OUT_DATA = a8
+# ACC = a186 | OUT_DATA = 86
+# ACC = c53e | OUT_DATA = 3e
+# ACC = c8b7 | OUT_DATA = b7
+# ACC = db91 | OUT_DATA = 91
+# ACC = a33 | OUT_DATA = 33
+# Final HW Output (out_data) = 33
+# ** Note: $finish    : my_module_tb.sv(46)
+#    Time: 4085 ns  Iteration: 2  Instance: /my_module_tb
+# End time: 22:43:32 on Jun 14,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
