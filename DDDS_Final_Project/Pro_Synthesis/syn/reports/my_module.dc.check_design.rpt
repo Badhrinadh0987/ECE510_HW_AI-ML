@@ -1,0 +1,39 @@
+ 
+****************************************
+check_design summary:
+Version:     Q-2019.12-SP3
+Date:        Sun Jun 15 02:37:35 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     23
+    Unconnected ports (LINT-28)                                     8
+    Shorted outputs (LINT-31)                                       7
+    Constant outputs (LINT-52)                                      8
+--------------------------------------------------------------------------------
+
+Warning: In design 'my_module', port 'in_data[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'my_module', port 'in_data[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'my_module', port 'in_data[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'my_module', port 'in_data[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'my_module', port 'in_data[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'my_module', port 'in_data[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'my_module', port 'in_data[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'my_module', port 'in_data[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'my_module', output port 'out_data[7]' is connected directly to output port 'out_data[0]'. (LINT-31)
+Warning: In design 'my_module', output port 'out_data[7]' is connected directly to output port 'out_data[1]'. (LINT-31)
+Warning: In design 'my_module', output port 'out_data[7]' is connected directly to output port 'out_data[2]'. (LINT-31)
+Warning: In design 'my_module', output port 'out_data[7]' is connected directly to output port 'out_data[3]'. (LINT-31)
+Warning: In design 'my_module', output port 'out_data[7]' is connected directly to output port 'out_data[4]'. (LINT-31)
+Warning: In design 'my_module', output port 'out_data[7]' is connected directly to output port 'out_data[5]'. (LINT-31)
+Warning: In design 'my_module', output port 'out_data[7]' is connected directly to output port 'out_data[6]'. (LINT-31)
+Warning: In design 'my_module', output port 'out_data[7]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'my_module', output port 'out_data[6]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'my_module', output port 'out_data[5]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'my_module', output port 'out_data[4]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'my_module', output port 'out_data[3]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'my_module', output port 'out_data[2]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'my_module', output port 'out_data[1]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'my_module', output port 'out_data[0]' is connected directly to 'logic 0'. (LINT-52)
+1

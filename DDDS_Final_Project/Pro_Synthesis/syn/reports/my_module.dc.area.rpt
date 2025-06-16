@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : my_module
+Version: Q-2019.12-SP3
+Date   : Sun Jun 15 02:36:48 2025
+****************************************
+
+Library(s) Used:
+
+    saed32rvt_ss0p95v125c (File: /pkgs/synopsys/2020/32_28nm/SAED32_EDK/lib/stdcell_rvt/db_nldm/saed32rvt_ss0p95v125c.db)
+
+Number of ports:                           28
+Number of nets:                            69
+Number of cells:                           48
+Number of combinational cells:             37
+Number of sequential cells:                10
+Number of macros/black boxes:               0
+Number of buf/inv:                          5
+Number of references:                      15
+
+Combinational area:                 78.530496
+Buf/Inv area:                        6.607744
+Noncombinational area:              71.668609
+Macro/Black Box area:                0.000000
+Net Interconnect area:              15.473398
+
+Total cell area:                   150.199105
+Total area:                        165.672503
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+my_module                          150.1991    100.0   78.5305    71.6686  0.0000  my_module
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                  78.5305    71.6686  0.0000
+
+1
